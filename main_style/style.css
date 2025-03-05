@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,700;1,700&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital@0;1&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* reset css yoki defout qiymatlarni chopish */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container css */
+.container {
+    max-width: 1440px; 
+    width: 1440px;
+    font-family: 'Manrope';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;  /* Markazga joylash */
+    background: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Yengil soya */
+}
+
+
+/* header css */
+.section_header {
+    width: 1440px;
+    height: 336px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 1110px;
+    height: 28px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+    gap: 34px;
+}
+
+.header_a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.header_a:hover {
+    color: aqua;
+}
+
+.header_li {
+    list-style: none;
+}
+
+.header_span {
+    margin-top: 36px;
+    width: 1110px;
+    height: 1px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.header_h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    color: #FFFFFF;
+    margin-top: 98px;
+}
+
+/* main css_1 */
+.section_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 560px;
+    margin-top: 160px;
+}
+
+.images_main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 560px;
+    background-color: #F1F1F1;
+}
+
+.new {
+    width: 445px;
+    height: 343px;
+}
+
+.main1_p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.12px;
+    letter-spacing: 10px;
+    color: #D87D4A;
+}
+
+.main1_h2 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+}
+
+.main1_tex {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+}
+
+.main1_btn {
+    width: 160px;
+    height: 48px;
+    border: none;
+    background-color: #D87D4A;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.main1_btn:hover {
+    cursor: pointer;
+    background-color: #f3742a;
+}
+
+/* main2 markaziy qisim  flex-direction:row-reverse; css */
+.section_main2 {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 560px;
+    margin-top: 160px;
+}
+
+
+/* shoppng qismi css */
+.sidebar {
+    position: relative;
+    width: 1110px;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    align-items:end;
+    margin-bottom: 160px;
+} 
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 204px;
+    background-color: #F1F1F1;
+} 
+
+.img1 {
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+    width: 123px;
+    height: 160px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: 1.29px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.icon_strelka {
+    cursor: pointer;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    opacity: 50%;
+}
+
+
+/* main audio footerdan bitta yuqoridagi qism  */
+.main_audio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 588px;
+    margin-bottom: 160px;
+}
+
+.text_audio {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 295px;
+    gap: 32px;
+}
+
+.h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+}
+
+.best {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    color: #D87D4A;
+}
+
+.audio_p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+}
+
+/* footer qismi */
+.section_footer {
+    width: 1438px;
+    height: 365px;
+    background-color: #101010;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.footer_span_line {
+    display: block;
+    width: 101px;
+    cursor: pointer;
+    height: 4px;
+    background-color: #D87D4A;
+    margin-bottom: 71px;
+}
+
+.footer_span_line:hover {
+    background-color: rgb(48, 190, 12);
+}
+
+.footer_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.footer_tex {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_p {
+    width: 540px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.footer_p2 {
+    display: flex;
+    margin-top: 56px;
+    width: 540px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.footer_img {
+    display: flex;
+    gap: 16px;
+    margin-top: 70px;
+}
